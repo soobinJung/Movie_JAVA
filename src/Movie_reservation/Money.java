@@ -40,7 +40,7 @@ public class Money {
     public Money times(double percent) {
         return new Money(this.amount.multiply(BigDecimal.valueOf(percent)));
     }
-
+ 
     // amount > 0
     public boolean isLessThan(Money other) {
         return amount.compareTo(other.amount) < 0;

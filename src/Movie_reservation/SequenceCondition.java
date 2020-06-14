@@ -11,3 +11,4 @@ public class SequenceCondition implements DiscountCondition {
         return screening.isSequence(sequence);
     }
 }
+ 

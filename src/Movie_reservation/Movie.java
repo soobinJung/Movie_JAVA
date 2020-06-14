@@ -16,7 +16,7 @@ public class Movie {
         this.runningTime = runningTime;
         this.fee = fee;
         this.discountPolicy = discountPolicy;
-    }
+    } 
 
     public Money getFee() {
         return fee;

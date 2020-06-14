@@ -18,7 +18,7 @@ public abstract class DiscountPolicy {
         Money amount = Money.ZERO;
         for(DiscountCondition each : conditions) {
             if (each.isSatisfiedBy(screening)) {
-                amount = getDiscountAmount(screening);
+                amount = getDiscountAmount(screening); 
                 checkPostcondition(amount);
                 return amount;
             }

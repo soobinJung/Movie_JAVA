@@ -2,7 +2,7 @@ package Movie_reservation;
 
 public class Customer {
 	
-	// 이름
+	// 이름 
 	private String name;
 	// 아이디
 	private String id;

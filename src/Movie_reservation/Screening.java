@@ -4,7 +4,7 @@ import Movie_reservation.Money;
 
 import java.time.LocalDateTime;
 
-public class Screening {
+public class Screening {  
     private Movie movie;
     private int sequence;
     private LocalDateTime whenScreened;
